@@ -1,0 +1,53 @@
+{
+  "name": "uostime",
+  "version": "1.0.0",
+  "description": "UOSTIME \u001b[H20\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[F\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[ UOSTIME nodejs ver.",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon dist/main.js",
+    "postinstall": "npm run build",
+    "dev": "nodemon --exec ts-node src/main.ts",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "4.14.172",
+    "await-timeout": "^1.1.1",
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "iconv-lite": "^0.4.24",
+    "inversify": "^5.0.5",
+    "inversify-express-utils": "^6.3.2",
+    "lodash": "4.17.21",
+    "mongodb": "^3.6.11",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pm2": "4.5.6",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "4.1.2",
+    "socket.io-redis": "6.1.1",
+    "winston": "^3.3.3",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/await-timeout": "^0.3.1",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/morgan": "^1.9.2",
+    "@types/sinon": "^9.0.10",
+    "@types/xml2js": "^0.4.8",
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "sinon": "^9.2.4",
+    "ts-node": "^9.1.1",
+    "typescript": "4.4.3"
+  }
+}
